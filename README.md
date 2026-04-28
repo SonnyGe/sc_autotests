@@ -81,7 +81,7 @@ npm run allure:open
 
 ## 🐳 Running in Docker
 
-🔹 Option 1: Using prebuilt image (recommended)
+🔹 Option 1: Using prebuilt image (recommended).
 This approach builds an image with the project inside.
 It ensures consistent and reproducible execution (similar to CI/CD).
 
@@ -97,10 +97,8 @@ Run tests:
 docker run --rm --env-file .env playwright-tests
 ```
 
-🔹 Option 2: Using mounted volume
+🔹 Option 2: Using mounted volume.
 This approach runs tests using the project files from the host machine.
-
-Build image:
 
 ```bash
 docker run --rm -it \
