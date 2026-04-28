@@ -1,5 +1,5 @@
 import { test } from '../fixtures/auth.fixture.js';
-import { DashboardPage, StatisticsPage } from '../pages';
+import { DashboardPage, StatisticsPage } from '../pages/index.js';
 import { StatisticsApi } from '../api/statistics.api.js';
 
 test('Should increase clicks in report after opening referral link', async ({ page, api }) => {
