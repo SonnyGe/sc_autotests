@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# allure
+allure-results/
+allure-report/
+
+# env
+.env
+
+# misc
+.DS_Store
